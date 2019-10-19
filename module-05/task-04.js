@@ -9,16 +9,16 @@ class StringBuilder {
         return this._value;
     }
 
-    append(symbol) {
-        this._value = this._value + symbol;
+    append(str) {
+        this._value = this._value + str;
     }
 
-    prepend(symbol) {
-        this._value = symbol + this._value;
+    prepend(str) {
+        this._value = str + this._value;
     }
 
-    pad(symbol) {
-        this._value = symbol + this._value + symbol;
+    pad(str) {
+        this._value = str + this._value + str;
     }
 }
 
